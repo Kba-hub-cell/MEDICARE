@@ -24,7 +24,7 @@ const Sidebar: React.FC = () => {
   const [isHelpOpen, setIsHelpOpen] = useState(false);
 
   const navigation = [
-   /* { name: 'Accueil', href: '/', icon: Home, color: 'from-cyan-400 to-blue-400' },*/
+    { name: 'Accueil', href: '/', icon: Home, color: 'from-cyan-400 to-blue-400' },
     { name: 'Rendez-vous', href: '/rendez-vous', icon: Calendar, color: 'from-purple-400 to-pink-400' },
     { name: 'Dossier médical', href: '/dossier', icon: FileText, color: 'from-green-400 to-emerald-400' },
     { name: 'Recommandations', href: '/recommandations', icon: Lightbulb, color: 'from-yellow-400 to-orange-400' },
@@ -121,7 +121,7 @@ const Sidebar: React.FC = () => {
               <div className={`relative ${isActive ? 'transform scale-110' : 'group-hover:scale-110'} transition-transform duration-300`}>
                 <div className={`absolute inset-0 bg-gradient-to-r ${item.color} rounded-lg blur-md opacity-50 ${isActive ? 'opacity-70' : 'group-hover:opacity-70'}`} />
                 <div className="relative bg-white/90 p-2 rounded-lg shadow-md">
-                  <Icon className={`w-5 h-5 bg-gradient-to-r ${item.color} bg-clip-text text-transparent`} 
+                  <Icon className={`w-5 h-5 text-white`} 
                         style={{ filter: 'drop-shadow(0 0 8px rgba(0,0,0,0.2))' }} />
                 </div>
               </div>
