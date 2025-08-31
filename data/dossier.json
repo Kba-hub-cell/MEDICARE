@@ -1,0 +1,89 @@
+{
+  "antecedents": [
+    {
+      "id": "ant-001",
+      "type": "Chirurgical",
+      "description": "Appendicectomie",
+      "date": "2010-06-15",
+      "etablissement": "Hôpital Saint-Louis"
+    },
+    {
+      "id": "ant-002",
+      "type": "Médical",
+      "description": "Hypertension artérielle légère",
+      "date": "2020-03-10",
+      "statut": "Contrôlée"
+    },
+    {
+      "id": "ant-003",
+      "type": "Familial",
+      "description": "Diabète type 2 (père)",
+      "date": "Antécédent familial",
+      "statut": "Surveillance"
+    }
+  ],
+  "allergies": [
+    {
+      "id": "all-001",
+      "substance": "Pénicilline",
+      "reaction": "Éruption cutanée",
+      "severite": "Modérée",
+      "dateDecouverte": "2015-08-20"
+    },
+    {
+      "id": "all-002",
+      "substance": "Pollen de bouleau",
+      "reaction": "Rhinite allergique",
+      "severite": "Légère",
+      "dateDecouverte": "2018-04-05"
+    }
+  ],
+  "traitements": [
+    {
+      "id": "trait-001",
+      "medicament": "Lisinopril 10mg",
+      "posologie": "1 comprimé par jour le matin",
+      "indication": "Hypertension artérielle",
+      "dateDebut": "2020-03-15",
+      "dateFin": null,
+      "medecin": "Dr. Martin",
+      "statut": "En cours"
+    },
+    {
+      "id": "trait-002",
+      "medicament": "Vitamine D3 1000UI",
+      "posologie": "1 gélule par jour",
+      "indication": "Carence en vitamine D",
+      "dateDebut": "2024-09-01",
+      "dateFin": "2025-03-01",
+      "medecin": "Dr. Martin",
+      "statut": "En cours"
+    },
+    {
+      "id": "trait-003",
+      "medicament": "Amoxicilline 500mg",
+      "posologie": "3 fois par jour pendant 7 jours",
+      "indication": "Infection respiratoire",
+      "dateDebut": "2024-11-01",
+      "dateFin": "2024-11-08",
+      "medecin": "Dr. Martin",
+      "statut": "Terminé"
+    }
+  ],
+  "vaccinations": [
+    {
+      "id": "vacc-001",
+      "vaccin": "COVID-19 (Pfizer)",
+      "date": "2024-10-15",
+      "rappel": "2025-10-15",
+      "lieu": "Pharmacie du Centre"
+    },
+    {
+      "id": "vacc-002",
+      "vaccin": "Grippe saisonnière",
+      "date": "2024-10-01",
+      "rappel": "2025-10-01",
+      "lieu": "Cabinet Dr. Martin"
+    }
+  ]
+}

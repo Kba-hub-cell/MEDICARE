@@ -1,0 +1,76 @@
+{
+  "recommandations": [
+    {
+      "id": "rec-001",
+      "titre": "Hydratation quotidienne",
+      "description": "Buvez au moins 1,5L d'eau par jour pour maintenir une bonne hydratation.",
+      "categorie": "Nutrition",
+      "priorite": "Élevée",
+      "dateCreation": "2025-01-15",
+      "source": "Dr. Martin"
+    },
+    {
+      "id": "rec-002",
+      "titre": "Activité physique modérée",
+      "description": "Pratiquez 30 minutes de marche par jour pour améliorer votre santé cardiovasculaire.",
+      "categorie": "Activité physique",
+      "priorite": "Élevée",
+      "dateCreation": "2025-01-14",
+      "source": "Dr. Leblanc"
+    },
+    {
+      "id": "rec-003",
+      "titre": "Horaires de sommeil réguliers",
+      "description": "Maintenez des horaires de coucher et de lever constants pour optimiser votre récupération.",
+      "categorie": "Sommeil",
+      "priorite": "Moyenne",
+      "dateCreation": "2025-01-13",
+      "source": "Recommandation générale"
+    },
+    {
+      "id": "rec-004",
+      "titre": "Réduction du sel",
+      "description": "Limitez votre consommation de sel à 6g par jour pour contrôler votre tension artérielle.",
+      "categorie": "Nutrition",
+      "priorite": "Élevée",
+      "dateCreation": "2025-01-12",
+      "source": "Dr. Martin"
+    },
+    {
+      "id": "rec-005",
+      "titre": "Exercices de relaxation",
+      "description": "Pratiquez 10 minutes de méditation ou de respiration profonde chaque jour.",
+      "categorie": "Bien-être",
+      "priorite": "Moyenne",
+      "dateCreation": "2025-01-11",
+      "source": "Recommandation générale"
+    },
+    {
+      "id": "rec-006",
+      "titre": "Étirements matinaux",
+      "description": "Effectuez 5 minutes d'étirements au réveil pour préparer votre corps à la journée.",
+      "categorie": "Activité physique",
+      "priorite": "Faible",
+      "dateCreation": "2025-01-10",
+      "source": "Physiothérapeute"
+    },
+    {
+      "id": "rec-007",
+      "titre": "Exposition à la lumière naturelle",
+      "description": "Exposez-vous à la lumière naturelle 15 minutes chaque matin pour réguler votre rythme circadien.",
+      "categorie": "Sommeil",
+      "priorite": "Moyenne",
+      "dateCreation": "2025-01-09",
+      "source": "Dr. Moreau"
+    },
+    {
+      "id": "rec-008",
+      "titre": "Consommation de légumes verts",
+      "description": "Intégrez des légumes verts à feuilles dans votre alimentation quotidienne.",
+      "categorie": "Nutrition",
+      "priorite": "Moyenne",
+      "dateCreation": "2025-01-08",
+      "source": "Nutritionniste"
+    }
+  ]
+}

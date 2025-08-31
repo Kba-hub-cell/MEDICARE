@@ -1,0 +1,14 @@
+{
+  "id": "patient-001",
+  "prenom": "Marie",
+  "nom": "Dupont",
+  "dateNaissance": "1985-03-15",
+  "numeroSecu": "185031234567890",
+  "email": "marie.dupont@email.com",
+  "telephone": "06 12 34 56 78",
+  "medecinTraitant": {
+    "nom": "Dr. Martin",
+    "specialite": "Médecine générale",
+    "telephone": "01 23 45 67 89"
+  }
+}

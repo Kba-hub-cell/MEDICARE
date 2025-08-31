@@ -1,0 +1,62 @@
+{
+  "rendezvous": [
+    {
+      "id": "rdv-001",
+      "medecin": "Dr. Martin",
+      "specialite": "Médecine générale",
+      "date": "2025-01-25",
+      "heure": "09:30",
+      "lieu": "Cabinet médical - 123 Rue de la Santé, Paris",
+      "statut": "a_venir",
+      "motif": "Consultation de suivi",
+      "type": "consultation"
+    },
+    {
+      "id": "rdv-002", 
+      "medecin": "Dr. Leblanc",
+      "specialite": "Cardiologie",
+      "date": "2025-02-08",
+      "heure": "14:00",
+      "lieu": "Hôpital Saint-Antoine - Service Cardiologie",
+      "statut": "a_venir",
+      "motif": "Échographie cardiaque",
+      "type": "examen"
+    },
+    {
+      "id": "rdv-003",
+      "medecin": "Dr. Martin",
+      "specialite": "Médecine générale",
+      "date": "2024-12-15",
+      "heure": "10:15",
+      "lieu": "Cabinet médical - 123 Rue de la Santé, Paris",
+      "statut": "passe",
+      "motif": "Bilan de santé annuel",
+      "type": "bilan",
+      "compteRendu": "Bilan général satisfaisant. Tension artérielle normale. Analyses sanguines dans la norme."
+    },
+    {
+      "id": "rdv-004",
+      "medecin": "Dr. Rousseau",
+      "specialite": "Ophtalmologie",
+      "date": "2024-11-20",
+      "heure": "16:45",
+      "lieu": "Centre Ophtalmologique - 456 Avenue des Yeux",
+      "statut": "passe",
+      "motif": "Contrôle de vue",
+      "type": "consultation",
+      "compteRendu": "Vision stable. Prescription mise à jour. Prochain contrôle dans 2 ans."
+    },
+    {
+      "id": "rdv-005",
+      "medecin": "Dr. Dubois",
+      "specialite": "Dermatologie",
+      "date": "2024-10-10",
+      "heure": "11:30",
+      "lieu": "Clinique Dermatologique - 789 Boulevard de la Peau",
+      "statut": "passe",
+      "motif": "Contrôle de grains de beauté",
+      "type": "prevention",
+      "compteRendu": "Aucune anomalie détectée. Surveillance continue recommandée."
+    }
+  ]
+}
