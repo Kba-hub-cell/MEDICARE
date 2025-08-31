@@ -3,6 +3,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { motion } from 'framer-motion';
+import { slideIn } from '@/lib/animations';
+import ThemeToggle from './ThemeToggle';
 import { 
   Heart, 
   Calendar, 
@@ -55,7 +58,9 @@ const Sidebar: React.FC = () => {
   };
 
   return (
-    <aside className="fixed left-0 top-0 h-full w-72 bg-gradient-to-b from-[#15587d] to-[#0d3a52] shadow-2xl overflow-hidden">
+    <motion.aside
+      {...slideIn}
+      className="fixed left-0 top-0 h-full w-72 bg-gradient-to-b from-[#15587d] to-[#0d3a52] dark:from-gray-800 dark:to-gray-900 shadow-2xl overflow-hidden">
       {/* Motif décoratif en arrière-plan */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-40 h-40 bg-white rounded-full -translate-x-20 -translate-y-20" />
@@ -141,7 +146,7 @@ const Sidebar: React.FC = () => {
       </nav>
 
       {/* Section Aide et Support */}
-      <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[#0d3a52] to-transparent">
+      <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[#0d3a52] dark:from-gray-900 to-transparent">
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20">
           <button
             onClick={() => setIsHelpOpen(!isHelpOpen)}
@@ -201,7 +206,7 @@ const Sidebar: React.FC = () => {
 
       {/* Effet de lumière animé */}
       <div className="absolute top-1/2 -translate-y-1/2 -right-20 w-40 h-40 bg-cyan-400 rounded-full blur-3xl opacity-20 animate-pulse" />
-    </aside>
+    </motion.aside>
   );
 };
 

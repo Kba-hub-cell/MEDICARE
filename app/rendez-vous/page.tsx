@@ -4,6 +4,7 @@ import React, { useState, useMemo } from 'react';
 import { getRendezVous, RendezVous } from '@/lib/data';
 import AppointmentCard from '@/components/AppointmentCard';
 import FilterTabs from '@/components/FilterTabs';
+import PageTransition from '@/components/PageTransition';
 import { Calendar, Search } from 'lucide-react';
 
 export default function RendezVousPage() {
